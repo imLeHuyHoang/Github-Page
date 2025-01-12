@@ -34,12 +34,27 @@ a {
   margin-bottom: 20px;
 }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .navbar .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #1ea640;
+  background: linear-gradient(to right, #003300, #ffffff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 2s ease infinite;
 }
-
 .main-content {
   display: flex;
   flex-direction: row;
