@@ -1,7 +1,6 @@
 const texts = [
-  "want to learn about DevOps",
-  "want to become an AWS community builder, but now I'm still dumb :(",
-  "want to learn about Cloud",
+  "want to learn about DevOps and Cloud",
+  "want to be a useful idiot :))",
 ];
 
 const fixedPrefix = "I ";
