@@ -1,5 +1,5 @@
 const texts = [
-  "want to learn about DevOps and Cloud",
+  "want to learn about DevOps and Cloud.",
   "want to be a useful idiot :))",
 ];
 
